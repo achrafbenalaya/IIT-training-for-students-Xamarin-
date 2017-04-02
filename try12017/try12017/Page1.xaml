@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try12017.Page1">
+    <StackLayout>
+    <Label x:Name="label1" Text="Hello Oumaima and rihab" TextColor="Red" WidthRequest="200" HorizontalTextAlignment="Center" FontSize="24" ></Label>
+    <Label x:Name="labe2" IsVisible="False" Text="Oumaima rakkez" FontSize="30" TextColor="Purple" ></Label>
+        <Button x:Name="but1" TextColor="Blue" Text=" bellehi Clique Me" BorderRadius="12" Clicked="bb1"></Button>
+    <Button Text="Hey" TextColor="Fuchsia" Clicked="bb2" x:Name="but2"></Button>
+       <Switch Toggled="Switch1_OnToggled" IsToggled="False" x:Name="Switch1"></Switch>
+        <DatePicker Format="D" ></DatePicker>
+        <Button Text="change backgroundcolor" Clicked="changeback"></Button>
+        
+        <Button Text="Go to page 2" TextColor="Lime" Clicked="Gotopage2" ></Button>
+    </StackLayout>
+    
+    
+    
+</ContentPage>

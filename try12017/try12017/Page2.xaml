@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="try12017.Page2">
+    
+    
+    <StackLayout>
+        
+        <Label Text="Welcome to my house" FontSize="30" HorizontalTextAlignment="Center" VerticalOptions="Center"></Label>
+        <Label x:Name="test" Text="" FontSize="24" TextColor="Red" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+        <Button Text="wariniii " Clicked="Button_OnClicked"></Button>
+    </StackLayout>
+</ContentPage>

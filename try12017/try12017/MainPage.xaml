@@ -4,8 +4,16 @@
              xmlns:local="clr-namespace:try12017"
              x:Class="try12017.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+	<StackLayout>
+        
+        <Label Text="Hello IIT" Opacity="0.5" x:Name="lab1"></Label>
+        <Entry  Text="Give me your number" Opacity="0.25"></Entry>
+        <Switch IsToggled="True" x:Name="SwitchA"></Switch>
+        <Button  Text="You wanna Clique me ?" BorderRadius="8" TextColor="Red" Clicked="CC1"></Button>
+        
+        
+        
+        
+    </StackLayout>
 
 </ContentPage>

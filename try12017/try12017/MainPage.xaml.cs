@@ -13,5 +13,22 @@ namespace try12017
         {
             InitializeComponent();
         }
+
+        private async void CC1(object sender, EventArgs e)
+        {
+         var k = await DisplayAlert("Hello", "Do  you want to change ?", "accept", "No");
+
+            if (k == true)
+            {
+                SwitchA.IsToggled = false;
+               
+
+            }
+            else
+            {
+                lab1.Text = "Go go ";
+            }
+
+        }
     }
 }

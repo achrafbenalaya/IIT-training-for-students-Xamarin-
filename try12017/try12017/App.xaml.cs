@@ -13,7 +13,8 @@ namespace try12017
         {
             InitializeComponent();
 
-            MainPage = new try12017.MainPage();
+          //  MainPage = new try12017.MainPage();
+          MainPage = new NavigationPage(new Page1());
         }
 
         protected override void OnStart()
